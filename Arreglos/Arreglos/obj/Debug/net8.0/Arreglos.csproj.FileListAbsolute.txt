@@ -1,0 +1,14 @@
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\bin\Debug\net8.0\Arreglos.exe
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\bin\Debug\net8.0\Arreglos.deps.json
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\bin\Debug\net8.0\Arreglos.runtimeconfig.json
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\bin\Debug\net8.0\Arreglos.dll
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\bin\Debug\net8.0\Arreglos.pdb
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.AssemblyInfoInputs.cache
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.AssemblyInfo.cs
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.dll
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\refint\Arreglos.dll
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.pdb
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\Arreglos.genruntimeconfig.cache
+C:\Users\Jorge\source\repos\Arreglos\Arreglos\obj\Debug\net8.0\ref\Arreglos.dll
