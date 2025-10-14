@@ -1,0 +1,15 @@
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.AssemblyInfoInputs.cache
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.AssemblyInfo.cs
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.sourcelink.json
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\bin\Debug\net8.0\Clases y objetos.exe
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\bin\Debug\net8.0\Clases y objetos.deps.json
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\bin\Debug\net8.0\Clases y objetos.runtimeconfig.json
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\bin\Debug\net8.0\Clases y objetos.dll
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\bin\Debug\net8.0\Clases y objetos.pdb
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.dll
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\refint\Clases y objetos.dll
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.pdb
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\Clases y objetos.genruntimeconfig.cache
+C:\Users\Jorge\OneDrive\Escritorio\Repositorio de principiante C#\Practicas-de-principiante\Clases y objetos\Clases y objetos\obj\Debug\net8.0\ref\Clases y objetos.dll
