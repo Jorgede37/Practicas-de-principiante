@@ -10,7 +10,7 @@ namespace Clases_y_objetos.Models
 
     //Aqui estoy creando la clase Bebida a la que le asigno atributos, metodos y su constructor
 {
-    internal class Bebida
+    public class Bebida
     {
         //Estos son los atributos de la clase
         public string Nombre { get; set; }
