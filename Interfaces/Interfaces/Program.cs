@@ -3,6 +3,7 @@ namespace Interfaces
 {
     internal class Program
     {
+        //Aqui podria crear objetos de las clases Cuadrado y Triangulo y llamar a los metodos area y perimetro. Pero en lugar de eso, voy a crear objetos de tipo IPieza que es la interfaz que implementan ambas clases. De esta manera puedo usar polimorfismo y tratar a ambos objetos de la misma manera.
         static void Main(string[] args)
         {
             IPieza cuadrado = new Cuadrado(10);
