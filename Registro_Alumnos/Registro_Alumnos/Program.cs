@@ -1,9 +1,6 @@
 ﻿using Registro_Alumnos;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Registro_Alumnos
 {
@@ -11,37 +8,88 @@ namespace Registro_Alumnos
     {
         static void Main(string[] args)
         {
-            bool continuar;
-            //Falta agregar el try catch para que no truene si el usuario ingresa algo incorrecto
-
+            bool continuar = true; // controla el ciclo del menú
             List<Alumno> alumnos = new List<Alumno>();
 
-            Console.WriteLine("Por favor selecciona el numero correspondiente de la opción que deseas elegir\n");
-            Console.WriteLine("1. Agregar Alumno");
-            Console.WriteLine("2. Mostrar alumnos");
-            Console.WriteLine("3. Buscar alumno por nombre");
-            Console.WriteLine("4. Salir");
-
-            string opcion = Console.ReadLine();
-
-            switch (opcion) 
+            while (continuar)
             {
-                case "1":
-                    Alumno nuevoAlumno = Alumno.agregar_alumno();
-                    alumnos.Add(nuevoAlumno);
-                    break;
+                try
+                {
+                    Console.WriteLine("\n=== MENÚ PRINCIPAL ===");
+                    Console.WriteLine("1. Agregar Alumno");
+                    Console.WriteLine("2. Mostrar alumnos");
+                    Console.WriteLine("3. Buscar alumno por nombre");
+                    Console.WriteLine("4. Salir");
+                    Console.Write("Selecciona una opción: ");
 
-                case "2":
-                    foreach (Alumno alumno in alumnos) 
+                    string opcion = Console.ReadLine();
+
+                    switch (opcion)
                     {
-                        Console.WriteLine($"Nombre: {alumno.Nombre}, Edad: {alumno.Edad}, Promedio: {alumno.Promedio}");
-                        //Falta que se repita el menu despues de cada accion
+                        case "1":
+                            Alumno nuevoAlumno = Alumno.agregar_alumno();
+                            alumnos.Add(nuevoAlumno);
+                            Console.WriteLine("\nAlumno agregado correctamente.");
+                            break;
+
+                        case "2":
+                            if (alumnos.Count == 0)
+                            {
+                                Console.WriteLine("\nNo hay alumnos registrados.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("\n=== LISTA DE ALUMNOS ===");
+                                foreach (Alumno alumno in alumnos)
+                                {
+                                    Console.WriteLine($"Nombre: {alumno.Nombre}, Edad: {alumno.Edad}, Promedio: {alumno.Promedio}");
+                                }
+                            }
+                            break;
+
+                        case "3":
+                            Console.Write("\nIngresa el nombre del alumno que deseas buscar: ");
+                            string nombreBuscado = Console.ReadLine();
+                            Alumno encontrado = alumnos.Find(a => a.Nombre.Equals(nombreBuscado, StringComparison.OrdinalIgnoreCase));
+
+                            if (encontrado != null)
+                            {
+                                Console.WriteLine($"Alumno encontrado: {encontrado.Nombre}, Edad: {encontrado.Edad}, Promedio: {encontrado.Promedio}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No se encontró un alumno con ese nombre.");
+                            }
+                            break;
+
+                        case "4":
+                            continuar = false; // termina el ciclo
+                            Console.WriteLine("Saliendo del programa...");
+                            break;
+
+                        default:
+                            Console.WriteLine("Opción no válida. Intenta de nuevo.");
+                            break;
                     }
-                    break;
 
-
+                    // Solo preguntar si no eligió salir
+                    if (continuar)
+                    {
+                        Console.Write("\n¿Deseas realizar otra acción? (s/n): ");
+                        string respuesta = Console.ReadLine().ToLower();
+                        continuar = (respuesta == "s" || respuesta == "si");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"\nOcurrió un error: {ex.Message}");
+                    Console.WriteLine("Por favor, intenta de nuevo.\n");
+                }
             }
 
+            Console.WriteLine("\nPrograma finalizado. Presiona cualquier tecla para cerrar...");
+            Console.ReadKey();
         }
     }
 }
+
