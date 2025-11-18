@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimerWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed5c4aab3e6e7b92b5233f18ded88503068cb613")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a5af13dcb90839ce3b66ee90b82c748ed48f41a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimerWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimerWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

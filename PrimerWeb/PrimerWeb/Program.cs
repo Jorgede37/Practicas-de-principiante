@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using PrimerWeb.Models;
+
 namespace PrimerWeb
 {
     public class Program
@@ -8,6 +11,13 @@ namespace PrimerWeb
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //Aqui se trabaja con la inyección de dependencias para el DbContext
+
+            builder.Services.AddDbContext<PracticaDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("PracticaDB"));
+            });
 
             var app = builder.Build();
 

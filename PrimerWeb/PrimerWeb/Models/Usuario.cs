@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace PrimerWeb.Models;
-
+//Desoues de haber creado la conexion a la base de datos con Entity framework, se generó un mapeo de las tablas de la base de datos como clases C#. Esta es la clase de la tabla Usuario.
 public partial class Usuario
 {
     public int Id { get; set; }
